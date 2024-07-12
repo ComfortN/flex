@@ -24,7 +24,7 @@ function App() {
       <div className='main'>
         <div className='squa'>
           <div className='bigsquare'></div>
-      </div>
+        </div>
 
         <div className='rectangls'>
           <div className='rect'></div>

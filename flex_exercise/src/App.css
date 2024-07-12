@@ -4,9 +4,6 @@
   padding: 0;
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
 
 .App {
   width: 100%;
@@ -26,6 +23,7 @@ body {
   justify-content: space-between;
   padding: 10px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .circles {
@@ -33,12 +31,14 @@ body {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  
 }
 
 .shapes {
   display: flex;
   justify-content: center;
   gap: 2em;
+  flex-wrap: wrap;
 }
 
 .square {
@@ -64,6 +64,7 @@ body {
   display: flex;
   gap: 15px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .squa {
@@ -94,6 +95,7 @@ body {
 
 .rectang {
   display: flex;
+  justify-content: space-between;
   gap: 15px;
   width: 100%;
 }
@@ -126,3 +128,9 @@ body {
 }
 
 
+@media (mac-width: 600px) {
+    .rectangls {
+      flex-direction: column;
+    }
+  
+}
